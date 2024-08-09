@@ -1,0 +1,2 @@
+# OpenMinsk
+Minsk guide

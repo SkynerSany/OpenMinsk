@@ -1,2 +1,1 @@
-# OpenMinsk
 Minsk guide

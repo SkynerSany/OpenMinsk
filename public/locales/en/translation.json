@@ -1,10 +1,34 @@
 {
-  "home": "home",
-  "landmarks": "landmarks",
+  "pages": {
+    "home": "home",
+    "landmarks": "landmarks",
+    "routes": "routes",
+    "map": "map",
+    "events": "events"
+  },
+  "homePage": {
+    "cardLandmarks": {
+      "title": "",
+      "titleBolder": "",
+      "text": ""
+    },
+    "cardRoutes": {
+      "title": "",
+      "titleBolder": "",
+      "text": ""
+    },
+    "cardMap": {
+      "title": "",
+      "titleBolder": "",
+      "text": ""
+    },
+    "cardEvents": {
+      "title": "",
+      "titleBolder": "",
+      "text": ""
+    }
+  },
   "openMinsk": "open minsk",
-  "routes": "routes",
-  "map": "map",
-  "events": "events",
   "login": "login",
   "signup": "sign up"
 }

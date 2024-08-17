@@ -7,28 +7,14 @@
     "events": "события"
   },
   "homePage": {
-    "cardLandmarks": {
-      "title": "",
-      "titleBolder": "",
-      "text": ""
-    },
-    "cardRoutes": {
-      "title": "",
-      "titleBolder": "",
-      "text": ""
-    },
-    "cardMap": {
-      "title": "",
-      "titleBolder": "",
-      "text": ""
-    },
-    "cardEvents": {
-      "title": "",
-      "titleBolder": "",
-      "text": ""
+    "banner": {
+      "title": "Добро пожаловать в",
+      "secondTitle": "минск",
+      "desc": "Здесь вы можете найти информацию о достопримечательностях, кафе, мероприятиях и многом другом, связанном с Минском.",
+      "button": "Узнать больше"
     }
   },
-  "openMinsk": "Открыть Минск",
+  "openMinsk": "открой минск",
   "login": "войти",
   "signup": "зарегистрироваться"
 }

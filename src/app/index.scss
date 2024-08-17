@@ -3,7 +3,13 @@
   padding: 0;
 
   box-sizing: border-box;
-  font-family: 'Inter', 'Roboto';
+  font-family: 'OpenSans';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -13,6 +19,8 @@ a {
 
 button {
   border: none;
+  background: none;
+  cursor: pointer;
 }
 
 li {
@@ -20,14 +28,38 @@ li {
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url(../assets/fonts/Inter.ttf);
+  font-family: 'OpenSans';
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../assets/fonts/OpenSans-ExtraBold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+  font-weight: normal;
 }
 
 .wrapper {
   width: 100%;
   max-width: 1400px;
-  padding: 20px;
+  padding: 0px 20px;
+}
+
+.base-text-shadow {
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.position-center {
+  display: flex;
+  justify-content: center;
 }
 
 $color_blue: #6415FF;
+$color_green: #00A651;
+$color_orange: #FF7A00;

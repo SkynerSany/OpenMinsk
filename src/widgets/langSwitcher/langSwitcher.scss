@@ -1,0 +1,23 @@
+.lang-switcher {
+  width: 40px;
+  padding: 5px;
+
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  option {
+    background: #000000;
+  }
+};

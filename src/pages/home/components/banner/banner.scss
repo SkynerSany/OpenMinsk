@@ -1,0 +1,66 @@
+.banner {
+  margin-top: -70px;
+
+  background-image: url(../../../../assets/images/Minsk.webp);
+  background-size: cover;
+  background-position:  0;
+
+  .wrapper {
+    align-items: center;
+  }
+}
+
+.banner__info {
+  width: 750px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__info-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  &.second-title {
+    margin-bottom: 30px;
+
+    color: $color_orange;
+  }
+}
+
+.banner__info-desc {
+  padding: 10px;
+  margin-bottom: 30px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+
+  p {
+    position: relative;
+    z-index: 2;
+  }
+  
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+
+    background-color: #000000;
+    -webkit-transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    -o-transform: skewX(10deg);
+    transform: skewX(10deg);
+  }
+}

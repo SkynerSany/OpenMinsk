@@ -11,14 +11,15 @@ export default function Layout() {
   return (
     <>
       <Header />
-
-      <Routes>
-        <Route path={ ROUTES.home } element={<Home />} />
-        <Route path={ ROUTES.landmarks } element={<Landmarks />} />
-        <Route path={ ROUTES.routes } element={<RoutesPage />} />
-        <Route path={ ROUTES.events } element={<Events />} />
-        <Route path={ ROUTES.map } element={<MapPage />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path={ '/' } element={<Home />} />
+          <Route path={ ROUTES.landmarks } element={<Landmarks />} />
+          <Route path={ ROUTES.routes } element={<RoutesPage />} />
+          <Route path={ ROUTES.events } element={<Events />} />
+          <Route path={ ROUTES.map } element={<MapPage />} />
+        </Routes>
+      </main>
     </>
   )
 }

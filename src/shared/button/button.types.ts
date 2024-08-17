@@ -1,7 +1,7 @@
 export interface IButton {
-  text: 'string',
+  text: string,
   type: 'button' | 'link',
-  color: 'blue' | 'white',
+  color: 'green' | 'white',
   link? : string,
   newClass?: string,
   callback?: () => void

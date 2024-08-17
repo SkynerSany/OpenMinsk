@@ -12,8 +12,12 @@ export default function NavList() {
       <ul className="navigation__list">
         {
           Object.entries(ROUTES).map(route => 
-            <li key={route[0]}>
-              <Link to={route[1]} className={ location.pathname === route[1] ? 'active' : ''}> { t(`pages.${route[0]}`) }</Link>
+            <li key={ route[0] }>
+              <Link 
+                to={ route[1] } 
+                className={ `base-text-shadow ${ location.pathname === route[1] ? 'active' : '' } ` }>
+                  { t(`pages.${route[0]}`) }
+                </Link>
             </li>
           )
         }

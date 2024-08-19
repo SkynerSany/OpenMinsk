@@ -4,5 +4,8 @@ export const ROUTES = {
   'landmarks': '/landmarks',
   'routes': '/routes',
   'events': '/events',
-  'map': '/map',
+  'information': '/information',
+  'whereToEat': '/cafe',
+  'whereToStay': '/hotels',
+  'transport': '/transport'
 }

@@ -20,4 +20,8 @@
   option {
     background: #000000;
   }
+
+  @media screen and (max-width: 420px) {
+    display: none;
+  }
 };

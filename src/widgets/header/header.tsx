@@ -23,6 +23,7 @@ export default function Header() {
   return (
     <header className={`header position-center ${location.pathname === '/' ? 'bgTransperrent' : ''} ${ sticky }`}>
       <div className="wrapper">
+        <button className="burger-menu"></button>
         <Link to='/'>
           <h1 className="header__logo base-text-shadow">{ t('openMinsk') }</h1>
         </Link>

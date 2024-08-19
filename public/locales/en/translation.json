@@ -3,8 +3,11 @@
     "home": "home",
     "landmarks": "landmarks",
     "routes": "routes",
-    "map": "map",
-    "events": "events"
+    "events": "events",
+    "information": "information",
+    "whereToStay": "where To Stay",
+    "whereToEat": "where To Eat",
+    "transport": "transport"
   },
   "homePage": {
     "banner": {
@@ -12,6 +15,39 @@
       "secondTitle": "minsk",
       "desc": "Here you can find information about attractions, cafes, events and much more related to Minsk",
       "button": "Discover more"
+    },
+    "cardRoutes": {
+      "title": "sections",
+      "cards": {
+        "popularPlaces": {
+          "title": "popular Places",
+          "desc": "The main attractions of Minsk with maps and descriptions."
+        },
+        "recommendedRoutes": {
+          "title": "recommended Routes",
+          "desc": "Ready-made tourist routes around Minsk for any time."
+        },
+        "eventsAndActivities": {
+          "title": "events And Activities",
+          "desc": "A list of current events and festivals in Minsk with the possibility of booking."
+        },
+        "whereToStay": {
+          "title": "where To Stay",
+          "desc": "Selection of hotels and apartments in Minsk with filters by budget and amenities."
+        },
+        "whereToEat": {
+          "title": "where To Eat",
+          "desc": "The best cafes and restaurants in Minsk with ratings and reviews."
+        },
+        "transport": {
+          "title": "transport",
+          "desc": "Convenient ways to travel around Minsk: metro, taxi and car rental."
+        },
+        "usefulInformation": {
+          "title": "Useful Information",
+          "desc": "Tips, visa requirements and important contacts for tourists in Minsk."
+        }
+      }
     }
   },
   "openMinsk": "open minsk",

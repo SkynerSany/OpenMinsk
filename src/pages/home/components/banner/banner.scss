@@ -11,6 +11,7 @@
 }
 
 .banner__info {
+  padding-top: 90px;
   width: 750px;
 
   display: flex;
@@ -23,12 +24,24 @@
   font-weight: 900;
   color: #ffffff;
   text-transform: uppercase;
+  text-align: center;
+
+  @media screen and (max-width: 960px) {
+    font-size: 36px;
+  }
 
   &.second-title {
     margin-bottom: 30px;
 
+    font-size: 68px;
     color: $color_orange;
+
+    @media screen and (max-width: 960px) {
+      font-size: 48px;
+    }
   }
+
+  
 }
 
 .banner__info-desc {
